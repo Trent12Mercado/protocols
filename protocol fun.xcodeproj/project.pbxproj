@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9AC0D4982518253600419E7B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0D4972518253600419E7B /* main.swift */; };
+		9AC0D49F251825F400419E7B /* point struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0D49E251825F400419E7B /* point struct.swift */; };
+		9AC0D4A12518275D00419E7B /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0D4A02518275D00419E7B /* Circle.swift */; };
+		9AC0D4A3251829AD00419E7B /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0D4A2251829AD00419E7B /* Shape.swift */; };
+		9AC0D4A525182B4C00419E7B /* rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0D4A425182B4C00419E7B /* rectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		9AC0D4942518253600419E7B /* protocol fun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "protocol fun"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC0D4972518253600419E7B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9AC0D49E251825F400419E7B /* point struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "point struct.swift"; sourceTree = "<group>"; };
+		9AC0D4A02518275D00419E7B /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		9AC0D4A2251829AD00419E7B /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		9AC0D4A425182B4C00419E7B /* rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				9AC0D4972518253600419E7B /* main.swift */,
+				9AC0D4A02518275D00419E7B /* Circle.swift */,
+				9AC0D49E251825F400419E7B /* point struct.swift */,
+				9AC0D4A2251829AD00419E7B /* Shape.swift */,
+				9AC0D4A425182B4C00419E7B /* rectangle.swift */,
 			);
 			path = "protocol fun";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC0D49F251825F400419E7B /* point struct.swift in Sources */,
 				9AC0D4982518253600419E7B /* main.swift in Sources */,
+				9AC0D4A12518275D00419E7B /* Circle.swift in Sources */,
+				9AC0D4A3251829AD00419E7B /* Shape.swift in Sources */,
+				9AC0D4A525182B4C00419E7B /* rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
